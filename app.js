@@ -8,7 +8,6 @@ app.use(express.json());
 app.get('/',(req,res) => {
     res.send('Clone Trello');
 });
-
 //Connect mongodb
 mongoose.connect(process.env.MONGO_URL,{
     useNewUrlParser: true,
@@ -19,5 +18,6 @@ mongoose.connect(process.env.MONGO_URL,{
 
 const PORT = process.env.PORT || 3000
 
-app.listen();
-console.log("âs");
+app.listen(PORT,() =>{
+    console.log(`http://localhost:${PORT}`);
+})

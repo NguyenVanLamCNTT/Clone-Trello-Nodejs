@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5890a849-2f34-47a0-8e1c-af5a26ffff6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/server/models/accounts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/models/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +27,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Hoc_tren_truong/Nam_3/PTUD/Bai_tap_lon/Bookstore-Manager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Du_an_CodingClub/CodingClub-NodeJS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -39,6 +42,8 @@
       <workItem from="1630742813164" duration="3972000" />
       <workItem from="1630845579951" duration="5000" />
       <workItem from="1630851274750" duration="190000" />
+      <workItem from="1630898594552" duration="19000" />
+      <workItem from="1630913261227" duration="3056000" />
     </task>
     <servers />
   </component>
