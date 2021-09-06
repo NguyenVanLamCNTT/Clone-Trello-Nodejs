@@ -15,7 +15,9 @@ mongoose.connect(process.env.MONGO_URL,{
 })
     .then(()=> console.log('Mongodb connected'))
     .catch(err => console.log(err));
-
+//Router
+const RegisterRouter = require('./server/routers/api/register');
+app.use('/api/auth/register', RegisterRouter);
 const PORT = process.env.PORT || 3000
 
 app.listen(PORT,() =>{
