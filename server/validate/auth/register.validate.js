@@ -30,8 +30,8 @@ module.exports.regexp = function (req,res,next){
     }
     next();
 }
-const Users = require('../models/users');
-const Accounts = require('../models/accounts');
+const Users = require('../../models/users');
+const Accounts = require('../../models/accounts');
 module.exports.checkUser = async function(req, res, next){
     const user_phone = await Users.findOne({phone: req.body.phone});
     const user_email = await Users.findOne({email: req.body.email});

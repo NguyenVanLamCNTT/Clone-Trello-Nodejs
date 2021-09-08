@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const auth = require('../../controllers/auth');
-const validateLogin = require('../../validate/auth/login.validate');
+const validateCheckToken = require('../../validate/checkToken.validate');
 
-router.post('/',validateLogin.regexp,auth.login);
+router.get('/',validateCheckToken.checkToken,auth.logout);
 
 module.exports = router;
