@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5890a849-2f34-47a0-8e1c-af5a26ffff6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/routers/api/logout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/validate/checkToken.validate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routers/api/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routers/api/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routers/api/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routers/api/register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/validate/login.validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/validate/auth/login.validate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/validate/register.validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/validate/auth/register.validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/validate/auth/login.validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/validate/auth/login.validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/validate/auth/register.validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/validate/auth/register.validate.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +26,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Clone-Trello-Web" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -57,7 +51,15 @@
       <workItem from="1630913261227" duration="8252000" />
       <workItem from="1630937048925" duration="31000" />
       <workItem from="1631004338129" duration="5289000" />
-      <workItem from="1631068280525" duration="1437000" />
+      <workItem from="1631068280525" duration="3041000" />
+      <workItem from="1631186952413" duration="781000" />
+      <workItem from="1631264185062" duration="611000" />
+      <workItem from="1631284441083" duration="16000" />
+      <workItem from="1631285523940" duration="1203000" />
+      <workItem from="1631346557930" duration="1394000" />
+      <workItem from="1631361352459" duration="806000" />
+      <workItem from="1631433166642" duration="3913000" />
+      <workItem from="1631516579984" duration="883000" />
     </task>
     <servers />
   </component>

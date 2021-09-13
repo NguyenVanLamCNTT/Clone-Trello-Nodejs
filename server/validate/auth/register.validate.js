@@ -1,5 +1,5 @@
 module.exports.regexp = function (req,res,next){
-    const reg_username = /^[A-z0-9]{0,30}$/;
+    const reg_username = /^[a-z0-9]{0,30}$/;
     const reg_phone = /^0[389][0-9]{8}$/;
     const reg_firstname =/^([A-Z][a-z]{0,20} ){0,6}([A-Z][a-z]{0,20} {0,2})$/;
     const reg_lastname = /^([A-Z][a-z]{0,20} ){0,6}([A-Z][a-z]{0,20} {0,2})$/;
