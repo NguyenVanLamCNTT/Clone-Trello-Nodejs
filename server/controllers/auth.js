@@ -3,7 +3,7 @@ const Users = require('../models/users');
 const Accounts = require('../models/accounts');
 const Sessions = require('../models/sessions');
 const jwt = require('jsonwebtoken');
-module.exports.register = async function register(req, res) {
+module.exports.register = async function (req, res) {
     try{
         const username = req.body.username;
         const plainTextPassword = req.body.password;
